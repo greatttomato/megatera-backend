@@ -1,12 +1,20 @@
 # Table of contents
 
-## GitHub
-* [#0.20230406](README.md)
+# Megatera
+* [#0](README.md)
 
-## GitBook
-* [0주차의 심정](README.md)
+## 개발 환경 설치 프로그램
+> 1. JDK (Java Development Kit)
+> 2. Gradle
+> 3. IntelliJ IDEA
+> 4. httpie : CLI와 웹 서비스 간의 상호작용
 
-* [0주차의 심정](README.md)
-  * [0주차의 심정](README.md)
+## 프로그램
+> * Git
+> * Github (SSH를 통한 연결)
+  > * Sourcetree
+> * Gitbook
+> * iterm2 (터미널)
+
 
 ## 열심히
