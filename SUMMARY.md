@@ -7,6 +7,6 @@
 * [0주차의 심정](README.md)
 
 * [0주차의 심정](README.md)
-  * * [0주차의 심정](README.md)
+  * [0주차의 심정](README.md)
 
 ## 열심히
