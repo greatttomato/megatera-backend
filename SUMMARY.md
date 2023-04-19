@@ -4,7 +4,14 @@
 
 ## \[ week0 ] Contents
 
-* [개발환경 설치 프로그램](week0-contents/undefined.md)
-* [그 외 설치 프로그램](week0-contents/undefined-1.md)
+* [개발환경 설치 프로그램](week0-contents/program1.md)
+* [그 외 설치 프로그램](week0-contents/program2.md)
+
+## \[ week2 ] REST API
+* REST API
+  > 로이 필딩 제약 조건 2단계만 만족해도
+  > HTTP Method 잘 쓰자 
+* [URI & MIME type](week1-restapi/class1.md)
+* [Collection Pattern](week1-restapi/class2.md)
 
 ## 열심히
