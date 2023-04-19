@@ -6,4 +6,4 @@
 > /posts/{id}/edit == /edit?post_id={post_id}
 
 Q. 솔직히 이해가 잘 가지 않는다 url을 깔끔하게 규칙에 따라 만든다는 것일까
-   추후 학습 필요 
+   추후 학습 필요

@@ -17,4 +17,4 @@
 3. application/xml -> 범용, 자기서술적이기 상대적으로 어렵다
 4. application/json -> 범용, 자기서술적이기 매우 어렵다<br/>
 >> RFC 문서들을 보면 좋다
-
+s
