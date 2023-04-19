@@ -9,7 +9,7 @@
 
 ## \[ week2 ] REST API
 * REST API
-  > 로이 필딩 제약 조건 2단계만 만족해도
+  > 로이 필딩 제약 조건 2단계만 만족해도 <br/>
   > HTTP Method 잘 쓰자 
 * [URI & MIME type](week1-restapi/class1.md)
 * [Collection Pattern](week1-restapi/class2.md)
