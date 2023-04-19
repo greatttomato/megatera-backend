@@ -12,9 +12,9 @@
 > /로 구분
 > 서버에 요청할 때도 동일하게 사용
 1. text/plain -> E-mail
-2. text/html -> 일반적 웹 문서
+2. text/html -> 일반적 웹 문서<br/>
 => text 기반
 3. application/xml -> 범용, 자기서술적이기 상대적으로 어렵다
-4. application/json -> 범용, 자기서술적이기 매우 어렵다
-  <small>RFC 문서들을 보면 좋다</small>
+4. application/json -> 범용, 자기서술적이기 매우 어렵다<br/>
+>> RFC 문서들을 보면 좋다
 
