@@ -17,7 +17,6 @@ Q. 솔직히 이해가 잘 가지 않는다 url을 깔끔하게 규칙에 따라
 3. Update
 4. Delete
 
-<br>
 
 ### CRUD 특성에 따른 구분
 1. Command  : Create, Update, Delete : 상태가 변한, 안전 X
