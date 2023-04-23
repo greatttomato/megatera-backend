@@ -42,12 +42,45 @@
 > 호스트는 IP 주소 또는 도메인 이름을 사용할 수 있다. <br>
 > 도메인 경우 DNS를 활용하기 때문에 제대로 하려면 복잡해질 수 있으나 알아서 처리해 준다. <br>
 >> String host = "example.com"; <br>
->>  http, https 둘 다 지원
+>> example.com : http, https 둘 다 지원
 
 - HTTP 기본 포트 번호 : 80
 - IP 주소와 포트 번호만 알면, 서버에 접속할 수 있다.
-  ''' Socket socket = new Socket(host, port); '''
+  ` Socket socket = new Socket(host, port); `
 => 자바에서는 소켓 생성하며 바로 접속 요청, 실패하면 ConnectException 예외 처리
+
+
+### 🍊 Request
+> 요청 메시지를 만들고, TCP로 전송
+
+1. `GET http://example.com/HTTP/1.1`
+    (빈줄)
+2. `GET/HTTP/1.1`
+   `Host:example.com`
+    (빈줄)
+<br>
+=> 2번이 더 많이 쓰이며, 빈줄을 꼭 넣어줘야한다 <br>
+<br>
+1. Java
+  String message = """
+    GET / HTTP/1.1
+    Host: example.com
+
+    """;
+2. String message - ""+
+    "GET / HTTP/1.1\n" + 
+    "Host: example.com\n +
+    "\n";
+<br>
+=> 편한대로<br>
+<br>
+
+### 🍊 Response
+
+### 🍊 Close
+> 자동으로 닫히긴 함.
+> try-
+
 
 
 
@@ -55,6 +88,8 @@
 - cmd + shift + T : 테스트 코드로 이동
 - cmt + , : settings
 - option + enter : create method
+- option + cmd + N : Inline Variable
+
 
 ### intellJ
 > - gradle init
