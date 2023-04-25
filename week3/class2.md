@@ -1,8 +1,8 @@
 ## 직렬화 Serialization
 
- 객체를 그 자체로 DB에 저장하거나 네트워크로 전송하는 건 불가능.
- 객체를 복구할 수 있도록 데이터화하는 게 필요.
- XML, JSON, YAML 같은 형태가 인기
+ 객체를 그 자체로 DB에 저장하거나 네트워크로 전송하는 건 불가능. <br>
+ 객체를 복구할 수 있도록 데이터화하는 게 필요. <br>
+ XML, JSON, YAML 같은 형태가 인기 <br>
 
 > 직렬화를 통해서 데이터화 하고, 그 데이터로 다시 객체를 만들어 낸다.
 
@@ -30,14 +30,9 @@ Java에선 Jackson이란 도구(라이브러리)가 유명하고, Spring Boot에
 
 ### JSON 스키마로서의 DTO (class)
 
-=> 프론트와 백 사이에서만 사용된다.
-=> 우리가 다룰 DTO는..!
-  프론트와 백이 서로 http를 통해 소통할 때 사용되는 http body가 json인! 컨텐트 타입이 application/json인 DTO만 다룰 것이다.
-물론 DTO는 여러 곳에서 사용될 수 있다.
+=> 프론트와 백 사이에서만 사용된다. <br>
+=> 우리가 다룰 DTO는..! <br>
+  프론트와 백이 서로 http를 통해 소통할 때 사용되는 http body가 json인! 컨텐트 타입이 application/json인 DTO만 다룰 것이다. <br>
+물론  DTO는 여러 곳에서 사용될 수 있다. <br>
 DTO(객체 인스턴스) class가 스키마 역할을 하는 것.
 
-
-
-
-
-JavaScript Good Parts로 
