@@ -14,4 +14,11 @@
 * [REST API](week2-restapi/class3.md)
 * [URI & MIME type](week2-restapi/class1.md)
 * [Collection Pattern](week2-restapi/class2.md)
+
+##\[ week3 ] : DTO & JSON & CORS
+* [DTO](week3/class1.md)
+* [직렬화](week3/class2.md)
+* Jackson ObjectMapper
+* CORS
+
 ## 열심히
