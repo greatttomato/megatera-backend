@@ -7,7 +7,7 @@
 * [그 외 설치 프로그램](week0-contents/program2.md)
 
 ## \[ week1 ] HTTP
-* [HTTP의 이해]
+* [HTTP의 이해]()
 * [HTTP Client](week1-http/class2.md)
 
 ## \[ week2 ] REST API
@@ -18,7 +18,7 @@
 ## \[ week3 ] DTO & JSON & CORS
 * [DTO](week3/class1.md)
 * [직렬화](week3/class2.md)
-* Jackson ObjectMapper
+* [Jackson ObjectMapper - 실습](week/class3.md)
 * CORS
 
 ## 열심히

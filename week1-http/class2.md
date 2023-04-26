@@ -89,6 +89,7 @@
 - cmt + , : settings
 - option + enter : create method
 - option + cmd + N : Inline Variable
+- shift 2번 : 파일, 클래스, 설정 등 키워드에 관련된 가능한 모든 것을 검색
 
 
 ### intellJ
