@@ -19,10 +19,6 @@ String DI를 통해 컨트롤러에서 Jackson ObjectMapper를 얻는다.<br>
 내가 사용하고 있다 = 의존하고 있다.<br>
 의존하고 있다 = 의존관계가 있다.<br>
 
-> Q. String DI : 디펜던시 인젝션?
-> Q. add constructor : 
-> Q. IOC container : 
-> Q. ObjectMapper.writeValueAsString : 
-> Q. curl -X POST 
+
 
 

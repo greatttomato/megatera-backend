@@ -23,5 +23,25 @@ accept처럼 상대의 요청이 없으면 영원히 기다리는 일이 벍어�
 ### 3️⃣ Response
 클라이언트의 요청과 마찬가지로, 응답 메시지를 만들어서 전송하면 된다.
 
+Java 코드
+  `String message = """`
+                    `HTTP/1.1 200 OK`
+                    `(빈줄)`
+                    `Hello, world!`
+                    `""";`
 
--- > 18분 20초 부터 
+제대로 하려면 컨텐트에 대한 Content-Type과 Content-Length를 더해주는 게 좋다. 최소 2개 정도 넣어주는 게 일반적.
+  String body = "Hello, world!";
+  byte[] bytes = body.getBytes();
+  `String message = """`
+                    `HTTP/1.1 200 OK`
+                    `Content-Type: text/html; charset=UTF-8`
+                    `Content-Length: """ + bytes.length + "\n" +`
+                    `"\n" + `
+                    `body;`
+
+Content-Length로 정확한 크기를 알 수 있기 때문에 마지막 줄에 Newline(\n)을 넣지 않아도 된다.
+
+### 4️⃣ Close
+  `socket.close();`
+  `listener.close();`
