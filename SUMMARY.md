@@ -21,7 +21,7 @@
 ## \[ week3 ] DTO & JSON & CORS
 * [DTO](week3/class1.md)
 * [직렬화](week3/class2.md)
-* [Jackson ObjectMapper - 🏃‍♀️](week/class3.md)
+* [Jackson ObjectMapper - 🏃‍♀️](week3/class3.md)
 * [CORS](week3/class4.md)
 
 ## 열심히
